@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+  }
+  
+  .container {
+    width: 95%;
+    margin: 20px auto;
+    border-radius: 5px;
+    padding: auto;
+  }
+  
+  .logo{
+    width: 100%;
+    background: rgb(53, 129, 222);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  header {
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+  }
+
+  header > h1 {
+    padding: auto;
+    margin: auto;
+  }
+
+  header > p {
+    padding: auto;
+    margin: auto;
+    color: lightgray
+  }
+  
+  input {
+    width: 95%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+  .profile-card {
+    display: flex;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .repo-card {
+    background: white;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  .profile-info {
+    width: 100%;
+    text-align: left;
+    margin: auto;
+  }
+
+  .profile-info > p {
+    margin: auto;
+    padding-left: 40px;
+  }
+  .profile-info > h2 {
+    margin: auto;
+    padding-left: 40px;
+  }
+
+  ul {
+    list-style: none;
+    margin: auto;
+    border: auto;
+  }
+
+  li {
+    border: 1px solid #ddd;
+    padding-left: 10px;
+    
+  
+  }
+
+  .profile-img{
+    display: grid;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .viewBtn {
+    background: rgb(53, 129, 222);
+    text-decoration: none;
+    color: white;
+    padding: 5px 57px 5px 57px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .ProfilePicture{
+    width: 200px;
+    height: auto;
+  }
